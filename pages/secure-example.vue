@@ -12,9 +12,9 @@ export default {
   auth: true,
   methods: {
     handleRefreshToken() {
-      console.log('handling refresh token')
-      // Refresh tokens, but it's not working as there is no refresh token coming back from B2C and being saved in the local storage and cookie
-      this.$auth.refreshTokens()
+    //   console.log('handling refresh token')
+    //   // Refresh tokens, but it's not working as there is no refresh token coming back from B2C and being saved in the local storage and cookie
+    //   this.$auth.refreshTokens()
     },
   },
 }
